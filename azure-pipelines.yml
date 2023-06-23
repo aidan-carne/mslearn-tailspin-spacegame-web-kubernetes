@@ -78,8 +78,8 @@ stages:
               action: deploy
               connectionType: azureResourceManager
               azureSubscriptionConnection: 'Kubernetes Cluster Connection'
-              azureResourceGroup: 'tailspin-space-game-rg'
-              kubernetesCluster: 'tailspinspacegame-24591'
+              azureResourceGroup: 'aidan-playground'
+              kubernetesCluster: 'aidansakscluster'
               namespace: 'default'
               manifests: |
                $(Pipeline.Workspace)/manifests/deployment.yml
